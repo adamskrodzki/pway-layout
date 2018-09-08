@@ -5,7 +5,7 @@ body {
     position: relative; 
     min-height: 100%; 
     top: 0px;
-    background-image: url('../img/background.png');
+    background-image: url('../img/background2.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-color: transparent;
@@ -126,10 +126,11 @@ section.offset {
 }
 
 section.introduction {
+    
     text-align: center;
-    display: table;
     width: 100%;
-    padding:155px 0px 100px 0px;
+    padding:125px 0px 100px 0px;
+    
     
 }
 
@@ -230,8 +231,12 @@ section.introduction .ico-box .progress-ico .percents {
     -webkit-animation-duration: 5s;
 }
 
-section.introduction span {
-
+section.introduction .time .timeSpan {
+    font-size: 12px;
+    margin-top:8px;
+    color:#D3D3D3;
+    text-align: center;
+   
 }
 
 section.introduction .counter {
@@ -329,6 +334,7 @@ section.about img {
 
 section.about ul.main-list {
     list-style: none;
+    
 }
 
 section.about ul.main-list li {
@@ -1027,10 +1033,14 @@ section.page.store .wrapper .buttons span,
 section.page.store .wrapper .buttons a
 {
     margin-right: 5px;
+    margin-bottom: 10px;
 }
+
+
 
 section.page.store #all-games .buttons {
     text-align: center;
+    
 }
 
 section.page.store #all-games .buttons span,
@@ -1134,6 +1144,8 @@ section.page.store .wrapper p.balance {
         margin-top: 0;
         margin-bottom:50px;
     }
+
+   
     section.introduction .counter span {
         text-align: center;
     }
@@ -1219,6 +1231,10 @@ section.page.store .wrapper p.balance {
         opacity: 1;
     }
 
+    section.about ul.main-list {
+        margin-top:25px;
+    }
+
     section.introduction .ico-box {
         margin-top: -0px;
     }
@@ -1269,6 +1285,10 @@ section.page.store .wrapper p.balance {
 
     section.about .schema {
         margin-top: 50px;
+    }
+
+    section.about ul.main-list {
+        margin-top:25px;
     }
 
     section.about .schema .item {
@@ -1550,7 +1570,7 @@ div.col-reset {
 
 div.box {
     width: 100%;
-    border-radius: 30px;
+    border-radius: 10px;
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
@@ -1675,3 +1695,4 @@ img.static {
 @media only screen and (max-width: 760px) {
     #some-element { display: none; }
   }
+
